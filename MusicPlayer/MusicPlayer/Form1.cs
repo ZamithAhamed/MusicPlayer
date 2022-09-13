@@ -16,5 +16,15 @@ namespace MusicPlayer
         {
             InitializeComponent();
         }
+
+        private void Button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void OpenFileDialog1_FileOk(object sender, CancelEventArgs e)
+        {
+
+        }
     }
 }
