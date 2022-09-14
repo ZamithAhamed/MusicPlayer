@@ -46,15 +46,15 @@
             this.player.Location = new System.Drawing.Point(1, 0);
             this.player.Name = "player";
             this.player.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("player.OcxState")));
-            this.player.Size = new System.Drawing.Size(678, 184);
+            this.player.Size = new System.Drawing.Size(512, 202);
             this.player.TabIndex = 0;
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(1, 152);
+            this.textBox1.Location = new System.Drawing.Point(3, 210);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(113, 32);
+            this.textBox1.Size = new System.Drawing.Size(135, 39);
             this.textBox1.TabIndex = 1;
             // 
             // button1
@@ -62,19 +62,20 @@
             this.button1.BackColor = System.Drawing.Color.SteelBlue;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(12, 200);
+            this.button1.Location = new System.Drawing.Point(14, 257);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(102, 36);
             this.button1.TabIndex = 2;
             this.button1.Text = "Browser";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.Chartreuse;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(151, 200);
+            this.button2.Location = new System.Drawing.Point(153, 257);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(102, 36);
             this.button2.TabIndex = 3;
@@ -87,36 +88,39 @@
             this.button3.BackColor = System.Drawing.Color.Yellow;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(289, 200);
+            this.button3.Location = new System.Drawing.Point(291, 257);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(102, 36);
             this.button3.TabIndex = 4;
             this.button3.Text = "Pause";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.Button3_Click);
             // 
             // button4
             // 
             this.button4.BackColor = System.Drawing.Color.Red;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(421, 200);
+            this.button4.Location = new System.Drawing.Point(423, 257);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(102, 36);
             this.button4.TabIndex = 5;
             this.button4.Text = "Stop";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.Button4_Click);
             // 
             // button5
             // 
             this.button5.BackColor = System.Drawing.Color.SteelBlue;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(548, 200);
+            this.button5.Location = new System.Drawing.Point(550, 257);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(102, 36);
             this.button5.TabIndex = 6;
             this.button5.Text = "Exit";
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.Button5_Click);
             // 
             // openFileDialog1
             // 
@@ -128,7 +132,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.ClientSize = new System.Drawing.Size(679, 250);
+            this.ClientSize = new System.Drawing.Size(679, 330);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
